@@ -26,3 +26,8 @@ This program takes a fasta file listing all sequence haplotypes of all individua
 4. If you choose the option for “PI”/”fixed” loci, you will probably want to output SNPs rather than full sequences, since you probably want only PI or fixed sites. However, if you choose “PI”/”fixed” loci and “full sequences,” then the program will output complete sequences containing at least 1 PI or fixed SNP.
 5. The alignment can be separated by locus with “!” symbols.
 6. A header of tab-delimited locus names can be added.
+
+### Citation:
+
+#### Please cite in the following way:
+Maier P.A., Vandergast A.G., Ostoja S.M., Aguilar A., Bohonak A.J. (2019). Pleistocene glacial cycles drove lineage diversification and fusion in the Yosemite toad (*Anaxyrus canorus*). Evolution, in press. https://www.doi.org/10.1111/evo.13868
