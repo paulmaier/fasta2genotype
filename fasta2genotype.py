@@ -24,6 +24,24 @@ from decimal import *
 import numpy as np
 from scipy import stats
 
+
+print """
+###################################################################
+###                                                             ###
+###       Fasta2Genotype | Data Conversion | Version 1.10       ###
+###                                                             ###
+###                        Cite as follows:                     ###
+###                                                             ###
+###   Maier P.A., Vandergast A.G., Ostoja S.M., Aguilar A.,     ###
+###   Bohonak A.J. (2019). Pleistocene glacial cycles drove     ###
+###   lineage diversification and fusion in the Yosemite toad   ###
+###   (Anaxyrus canorus). Evolution, in press.                  ###
+###   https://www.doi.org/10.1111/evo.13868                     ###
+###                                                             ###
+###################################################################
+"""
+
+
 if len(sys.argv) != 6:
         print "     ** Error: improper number of arguments. Please see manual for instructions. **"
         print "fasta2genotype.py [fasta file] [whitelist file] [population file] [VCF file] [output name]"
