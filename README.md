@@ -9,6 +9,10 @@ This program takes a fasta file listing all sequence haplotypes of all individua
 
 `python fasta2genotype.py [fasta file] [whitelist file] [population file] [VCF file] [output name]`
 
+### Python Version:
+
+NOTE: This script was written for Python 2.7* which is retired as of Jan. 1, 2020. You can still run this script with Python 2.7, just note that [only Python 3 is maintained](https://pythonclock.org/) at this point.
+
 ### Quality filtering options:
 * In addition to coverage filtering, several other quality control measures can be selected.
 * Monomorphic loci can be removed.
