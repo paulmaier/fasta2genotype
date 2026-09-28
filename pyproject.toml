@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fasta2genotype"
+version = "2.0.0"
+description = "Convert Stacks haplotype FASTA files into input for population-genetic software"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Paul Maier" }]
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/paulmaier/fasta2genotype"
+Paper = "https://doi.org/10.1111/evo.13868"
+
+[project.scripts]
+fasta2genotype = "fasta2genotype:main"
+
+[tool.setuptools]
+py-modules = ["fasta2genotype"]

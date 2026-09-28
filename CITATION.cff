@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: fasta2genotype
+message: "If you use this software, please cite the article below."
+type: software
+authors:
+  - family-names: Maier
+    given-names: Paul A.
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/paulmaier/fasta2genotype"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Maier
+      given-names: Paul A.
+    - family-names: Vandergast
+      given-names: Amy G.
+    - family-names: Ostoja
+      given-names: Steven M.
+    - family-names: Aguilar
+      given-names: Andres
+    - family-names: Bohonak
+      given-names: Andrew J.
+  title: "Pleistocene glacial cycles drove lineage diversification and fusion in the Yosemite toad (Anaxyrus canorus)"
+  journal: Evolution
+  year: 2019
+  volume: 73
+  issue: 12
+  start: 2476
+  end: 2496
+  doi: 10.1111/evo.13868
+  url: "https://paulmaierresearch.com/Maier_2019_Evolution.pdf"
