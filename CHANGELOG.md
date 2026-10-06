@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 (2026)
+## 2.0.0 (2026-10-05)
 
 A rewrite for Python 3 and current Stacks releases. The old interactive interface still
 works (see the README). The changes below can alter results compared with 1.x, so read
@@ -21,6 +21,8 @@ them before comparing new output with old analyses.
 - `--hwe-alpha` (previously fixed at 0.05), `--coverage-stat`, and `--one-snp` for LFMM
   and DIYABC-RF as well as TreeMix.
 - No dependencies: numpy and scipy are no longer needed.
+- Installable from PyPI (`pip install fasta2genotype`), which adds a `fasta2genotype`
+  command.
 - Much faster. Genotypes are stored as integer indices of unique haplotypes rather than in
   nested dictionaries that were searched repeatedly.
 

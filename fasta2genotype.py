@@ -1394,7 +1394,6 @@ Please cite:
 
 def build_parser():
     p = argparse.ArgumentParser(
-        prog="fasta2genotype.py",
         description="Convert a Stacks haplotype FASTA file (populations.samples.fa) into "
                     "input files for population-genetic software.",
         epilog=EXAMPLES,

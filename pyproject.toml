@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,13 +7,13 @@ name = "fasta2genotype"
 version = "2.0.0"
 description = "Convert Stacks haplotype FASTA files into input for population-genetic software"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [{ name = "Paul Maier" }]
 requires-python = ">=3.9"
 dependencies = []
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Environment :: Console",

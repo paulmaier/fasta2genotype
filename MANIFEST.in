@@ -1,0 +1,4 @@
+include CHANGELOG.md CITATION.cff
+recursive-include examples *
+recursive-include tests *.py
+global-exclude __pycache__ *.py[cod] .DS_Store

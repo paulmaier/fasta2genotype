@@ -52,19 +52,27 @@ one allele. Short RAD loci then act like multi-allelic markers, similar to micro
 
 Python 3.9 or newer. There are no other dependencies: numpy and scipy are no longer needed.
 
+Install it from PyPI, which adds a `fasta2genotype` command:
+
+```sh
+pip install fasta2genotype
+fasta2genotype --help
+```
+
+Or run the script from a copy of this repository:
+
 ```sh
 git clone https://github.com/paulmaier/fasta2genotype.git
 python3 fasta2genotype/fasta2genotype.py --help
 ```
 
 `python3 fasta2genotype.py` only finds the script in the current directory; Python does
-not search your `PATH`. To run it from anywhere, either:
+not search your `PATH`. To run a downloaded copy from anywhere, add the `fasta2genotype`
+folder to your `PATH` and run the script by name, `fasta2genotype.py --help`
+(macOS/Linux; the script is executable).
 
-* add the `fasta2genotype` folder to your `PATH` and run the script by name,
-  `fasta2genotype.py --help` (macOS/Linux; the script is executable), or
-* run `pip install ./fasta2genotype`, which installs a `fasta2genotype` command.
-
-The examples below use `python3 fasta2genotype.py`, run from the repository folder.
+The examples below use `python3 fasta2genotype.py`, run from the repository folder. With
+the installed command, type `fasta2genotype` instead.
 
 ## Quick start
 

@@ -6,6 +6,7 @@ authors:
   - family-names: Maier
     given-names: Paul A.
 version: 2.0.0
+date-released: 2026-10-05
 license: MIT
 repository-code: "https://github.com/paulmaier/fasta2genotype"
 preferred-citation:
