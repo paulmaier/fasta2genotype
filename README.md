@@ -59,6 +59,12 @@ pip install fasta2genotype
 fasta2genotype --help
 ```
 
+Or from Bioconda:
+
+```sh
+conda install -c conda-forge -c bioconda fasta2genotype
+```
+
 Or run the script from a copy of this repository:
 
 ```sh
