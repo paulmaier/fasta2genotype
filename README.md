@@ -1,5 +1,9 @@
 # fasta2genotype
 
+[![PyPI](https://img.shields.io/pypi/v/fasta2genotype)](https://pypi.org/project/fasta2genotype/)
+[![Bioconda](https://img.shields.io/conda/vn/bioconda/fasta2genotype)](https://anaconda.org/bioconda/fasta2genotype)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 `fasta2genotype.py` converts the per-sample haplotype FASTA file written by the
 [Stacks](https://catchenlab.life.illinois.edu/stacks/) `populations` program into input
 files for population-genetic software. It can apply quality filters along the way.
